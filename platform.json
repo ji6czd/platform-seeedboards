@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ji6czd/platform-seeedboards.git"
+    "url": "https://github.com/ji6czd/platform-seeedboards.git#0cf687e1b1669312"
   },
   "version": "1.0.0",
   "frameworks": {
@@ -37,7 +37,7 @@
       "type": "framework",
       "optional": true,
       "owner": "espressif",
-	"version": "https://github.com/espressif/esp32-arduino-libs"
+      "version": "https://github.com/espressif/esp32-arduino-libs"
     },
     "framework-espidf": {
       "type": "framework",
@@ -63,7 +63,7 @@
       "owner": "platformio",
       "version": "~1.23800.0"
     },
-      "tool-xtensa-esp-elf-gdb": {
+    "tool-xtensa-esp-elf-gdb": {
       "type": "debugger",
       "optional": true,
       "owner": "platformio",
@@ -92,12 +92,11 @@
       "version": "~2.1100.0"
     },
     "tool-mklittlefs": {
-      "optional":true,
+      "optional": true,
       "owner": "tasmota",
       "version": "^3.2.0"
     },
     "tool-mkfatfs": {
- 
       "optional": true,
       "owner": "platformio",
       "version": "~2.0.0"
@@ -144,25 +143,23 @@
       ]
     },
     "framework-arduinorenesas-uno": {
-        "type": "framework",
-        "optional": true,
-        "owner": "platformio",
-        "version": "https://files.seeedstudio.com/arduino/core/renesas/ArduinoCore-renesas-1.2.2.tar.bz2"
-      },
-      "tool-bossac": {
-   
-        "optional": true,
-        "owner": "platformio",
-        "version": "~1.10901.0"
-      },
-      "tool-jlink": {
-   
-        "optional": true,
-        "owner": "platformio",
-        "version": "^1.72000.0"
-      },
-      "toolchain-rp2040-earlephilhower": {
-      "type": "toolchain", 
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "https://files.seeedstudio.com/arduino/core/renesas/ArduinoCore-renesas-1.2.2.tar.bz2"
+    },
+    "tool-bossac": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.10901.0"
+    },
+    "tool-jlink": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "^1.72000.0"
+    },
+    "toolchain-rp2040-earlephilhower": {
+      "type": "toolchain",
       "optional": true,
       "owner": "earlephilhower",
       "version": "https://github.com/maxgerhardt/toolchain-dummy/archive/refs/heads/main.zip"
@@ -239,7 +236,6 @@
       "version": "~1.10901.0"
     },
     "tool-nrfjprog": {
- 
       "optional": true,
       "owner": "platformio",
       "version": "~1.90702.0"
