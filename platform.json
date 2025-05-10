@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Seeed-Studio/platform-seeedboards.git"
+    "url": "https://github.com/ji6czd/platform-seeedboards.git"
   },
   "version": "1.0.0",
   "frameworks": {
@@ -30,14 +30,14 @@
     "framework-arduinoespressif32": {
       "type": "framework",
       "optional": true,
-      "owner": "seeed",
-      "version": "https://files.seeedstudio.com/arduino/platformio/framework-arduinoespressif32.zip"
+      "owner": "espressif",
+      "version": "https://github.com/espressif/arduino-esp32.git"
     },
     "esp32-arduino-libs": {
       "type": "framework",
       "optional": true,
-      "owner": "seeed",
-      "version": "https://files.seeedstudio.com/arduino/platformio/esp32-arduino-libs-idf.zip"
+      "owner": "espressif",
+	"version": "https://github.com/espressif/esp32-arduino-libs"
     },
     "framework-espidf": {
       "type": "framework",
