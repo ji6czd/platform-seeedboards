@@ -37,7 +37,7 @@
       "type": "framework",
       "optional": true,
       "owner": "espressif",
-      "version": "https://github.com/espressif/esp32-arduino-libs"
+      "version": "https://github.com/espressif/esp32-arduino-libs#idf-release/v5.1"
     },
     "framework-espidf": {
       "type": "framework",
