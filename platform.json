@@ -36,8 +36,8 @@
     "esp32-arduino-libs": {
       "type": "framework",
       "optional": true,
-      "owner": "espressif",
-      "version": "https://github.com/espressif/esp32-arduino-libs#idf-release/v5.1"
+      "owner": "seeed",
+      "version": "https://files.seeedstudio.com/arduino/platformio/esp32-arduino-libs-idf.zip"
     },
     "framework-espidf": {
       "type": "framework",
