@@ -30,8 +30,8 @@
     "framework-arduinoespressif32": {
       "type": "framework",
       "optional": true,
-      "owner": "espressif",
-      "version": "https://github.com/espressif/arduino-esp32.git"
+      "owner": "platformio",
+      "version": "~3.20017.0"
     },
     "esp32-arduino-libs": {
       "type": "framework",
